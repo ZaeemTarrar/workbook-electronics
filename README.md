@@ -2,16 +2,11 @@
 
 ## Types of Current
 
-1. Direct Current (DC)
-	
+1. Direct Current (DC)	
 	- Wall Sockets
-
 	- Big House Appliances
-
 2. Alternative Current (AC)
-
 	- Batteries
-
 	- Mobile Phones
 
 **Note:** Currents can be converting from one type to another
