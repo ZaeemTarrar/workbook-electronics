@@ -1,5 +1,7 @@
 # Electronics & Electrical Engineering
 
+![alt text](https://wallpaperaccess.com/full/1579976.jpg)
+
 ## Types of Current
 
 1. Direct Current (DC)	
@@ -34,13 +36,13 @@ Number of Electrons flowing through the wire.
 
 ## Resistance
 
-**Unit:** `Ohm`
+**Unit:** `Ohm (Ω)`
 
 **Symbol:** `R`
 
 ## Basic Electronic Components / Tools
 
-1. Resistors
+1. Resistors (Ω)
 	- Constant Resisters
 	- Variable Resisters
 		- Potentiometer ( 2 Directional Resistance )
@@ -57,8 +59,15 @@ Number of Electrons flowing through the wire.
 	- Voltage is measuring directly between 2 Points
 	- Resistence is measure around the Resistor Poles
 	- Current is measured by making the Multi-Meter part of Circuit Itself
-7. Capacitors [ Capatitance Rating, Voltage Limit ]
+7. Capacitors
+	**Description** `Capacitance Rating` `Voltage Limit`
+	**Symbol** `uF`
 	- Electrolytic Capacitors
+		- Polar
+	- Ceremic Disk Capacitors
+		- Non Polar
+	- Poly Film Capacitors
+		- Non Polar
 
 ## LED Circuit Example
 
