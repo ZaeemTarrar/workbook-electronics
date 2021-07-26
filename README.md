@@ -61,13 +61,28 @@ Number of Electrons flowing through the wire.
 	- Current is measured by making the Multi-Meter part of Circuit Itself
 7. Capacitors
 	**Description** `Capacitance Rating` `Voltage Limit`
-	**Symbol** `uF`
+	**Symbol** `Farad (F)` | `Micro Farad (uF)` where `1uF = 0.000001F` | `Nano Farad (nF)` where `1nF = 0.001F`
 	- Electrolytic Capacitors
 		- Polar
 	- Ceremic Disk Capacitors
 		- Non Polar
 	- Poly Film Capacitors
 		- Non Polar
+	![alt text](https://effectpedalkits.com/wp-content/uploads/2018/06/non-polarized-vs-polarized-capacitor-schematic-symbol-300x209.png)
+8. Diodes
+	- Single Direction Current Flow
+	- Forward Bias
+	- Reverse Bias
+	- BreakDownFlow
+	- VoltageDropLimits
+9. Inductors
+10. Relays
+11. Coil
+12. Transistors
+	`Collector` `Emittor` `Base`
+	- BiPolar Junction Transistors
+		- NPN
+		- PNP
 
 ## LED Circuit Example
 
@@ -111,6 +126,7 @@ P = V . I
 	- Total Resistance (R) = R1 + R2 + R3 ...
 	- `Resistor/Resistance` & `Total Resistance (R)` are Directly Proportional
 	- `Resistor/Resistance` & `Total Current (I)` are Inversely Proportional
+	- Total Capacitance (1/Tf) = (1/F1) + (1/F2) + (1/F3) + ...
 2. Parallel Circuits
 	- Current (I) differs at Points
 	- Voltage (V) is Same at all Points
@@ -119,6 +135,36 @@ P = V . I
 	- V = I1.R1 = I2.R2 = I3.R3 = ...
 	- `Resistor/Resistance` & `Total Resistance (R)`  are Inversely Proportional
 	- `Resistor/Resistance` & `Total Current (I)`  are Directly Proportional
+	- Total Capacitance (Tf) = F1 + F2 + F3 + ...
+
+**Note:** `Q is denotion for Charge`
 
 
+## Capacitor Time Constank
 
+```
+Time Constant - Tao (Ʈ) = Resistance(Ω) . Capacitance(F) => { Charger 63% }
+```
+
+**Note:** `4Ʈ = 98% Charged`
+
+```
+4Ʈ = 4( Resistance(Ω) . Capacitance(F) ) => { Charger 98% }
+```
+
+**Note:** `Ʈ is measured in seconds`
+
+
+## Types of Switches
+
+1. Single Pole Single Throw ( S.P.S.T )
+2. Single Pole Double Throw ( S.P.S.T )
+3. Double Pole Single Throw ( S.P.S.T )
+4. Double Pole Double Throw ( S.P.S.T )
+
+## Types of Relays
+
+1. Single Pole Single Throw ( S.P.S.T )
+2. Single Pole Double Throw ( S.P.S.T )
+3. Double Pole Single Throw ( S.P.S.T )
+4. Double Pole Double Throw ( S.P.S.T )
